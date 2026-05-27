@@ -374,7 +374,7 @@ footer strong{color:rgba(255,255,255,0.55)}
       <div class="tl-item fi">
         <div class="tl-dot">🍽️</div>
         <div class="tl-body">
-          <div class="tl-time">~19h30 — 21h30</div>
+          <div class="tl-time">20h30</div>
           <div class="tl-name">Dîner — Rooftop Cappuccino</div>
           <div class="tl-desc">Dîner en hauteur avec vue sur Oostende. Cocktails, cuisine belge, ambiance rooftop.</div>
           <div class="chips">
@@ -393,41 +393,48 @@ footer strong{color:rgba(255,255,255,0.55)}
           <div class="tl-time">~22h00 — tard</div>
           <div class="tl-name">Bars &amp; fin de soirée — Oostende</div>
           <div class="tl-desc">Quelques adresses selon l'ambiance du moment.</div>
-          <div style="display:flex;flex-direction:column;gap:10px;margin-top:10px">
-            <div class="bar-card">
-              <div class="bar-card-name">🎶 La Siesta</div>
-              <div class="bar-card-sub">Cocktails mexicains · tapas · terrasse · ambiance festive</div>
-              <div class="bar-card-sub" style="color:rgba(255,255,255,0.3);font-size:11px;margin-top:2px">Wittenonnenstraat 23, Oostende</div>
-              <div class="chips" style="margin-top:8px">
-                <a class="chip" href="https://maps.google.com/?q=La+Siesta+Wittenonnenstraat+23+Oostende" target="_blank">📍 Maps</a>
-                <a class="chip green chip-waze" href="https://waze.com/ul?ll=51.2320,2.9103&navigate=yes" data-waze="waze://ul?ll=51.2320,2.9103&navigate=yes" target="_blank">🗺️ Y aller</a>
-              </div>
-            </div>
-            <div class="bar-card">
-              <div class="bar-card-name">🍺 Histoires D'O</div>
-              <div class="bar-card-sub">Brasserie vue mer · gin menu · tapas · terrasse zeedijk</div>
-              <div class="bar-card-sub" style="color:rgba(255,255,255,0.3);font-size:11px;margin-top:2px">Albert I-promenade 53, Oostende</div>
-              <div class="chips" style="margin-top:8px">
-                <a class="chip" href="https://maps.google.com/?q=Histoires+D+O+Albert+Promenade+53+Oostende" target="_blank">📍 Maps</a>
-                <a class="chip green chip-waze" href="https://waze.com/ul?ll=51.2298,2.9155&navigate=yes" data-waze="waze://ul?ll=51.2298,2.9155&navigate=yes" target="_blank">🗺️ Y aller</a>
-              </div>
-            </div>
-            <div class="bar-card">
-              <div class="bar-card-name">🎵 Bar des Amis</div>
-              <div class="bar-card-sub">Music · cocktails · dancefloor · good vibes</div>
-              <div class="bar-card-sub" style="color:rgba(255,255,255,0.3);font-size:11px;margin-top:2px">Langestraat 14, Oostende</div>
-              <div class="chips" style="margin-top:8px">
-                <a class="chip" href="https://maps.google.com/?q=Bar+des+Amis+Langestraat+14+Oostende" target="_blank">📍 Maps</a>
-                <a class="chip green chip-waze" href="https://waze.com/ul?ll=51.2302,2.9162&navigate=yes" data-waze="waze://ul?ll=51.2302,2.9162&navigate=yes" target="_blank">🗺️ Y aller</a>
-              </div>
-            </div>
-            <div class="bar-card">
-              <div class="bar-card-name">🎰 Casino d'Oostende</div>
-              <div class="bar-card-sub">Pour finir la nuit avec style · bâtiment iconique du Kursaal</div>
-              <div class="bar-card-sub" style="color:rgba(255,255,255,0.3);font-size:11px;margin-top:2px">Kursaal, Oostende</div>
-              <div class="chips" style="margin-top:8px">
-                <a class="chip" href="https://maps.google.com/?q=Casino+Kursaal+Oostende" target="_blank">📍 Maps</a>
-                <a class="chip green chip-waze" href="https://waze.com/ul?ll=51.2285,2.9201&navigate=yes" data-waze="waze://ul?ll=51.2285,2.9201&navigate=yes" target="_blank">🗺️ Y aller</a>
+          <div class="chips">
+            <button class="expand-btn" data-target="expand-bars">🍸 Voir les lieux <span class="exp-arrow">▼</span></button>
+          </div>
+          <div class="expand-panel" id="expand-bars">
+            <div class="expand-inner">
+              <div style="display:flex;flex-direction:column;gap:10px">
+                <div class="bar-card">
+                  <div class="bar-card-name">🎶 La Siesta</div>
+                  <div class="bar-card-sub">Cocktails mexicains · tapas · terrasse · ambiance festive</div>
+                  <div class="bar-card-sub" style="color:rgba(255,255,255,0.3);font-size:11px;margin-top:2px">Wittenonnenstraat 23, Oostende</div>
+                  <div class="chips" style="margin-top:8px">
+                    <a class="chip" href="https://maps.google.com/?q=La+Siesta+Wittenonnenstraat+23+Oostende" target="_blank">📍 Maps</a>
+                    <a class="chip green chip-waze" href="https://waze.com/ul?ll=51.2320,2.9103&navigate=yes" data-waze="waze://ul?ll=51.2320,2.9103&navigate=yes" target="_blank">🗺️ Y aller</a>
+                  </div>
+                </div>
+                <div class="bar-card">
+                  <div class="bar-card-name">🍺 Histoires D'O</div>
+                  <div class="bar-card-sub">Brasserie vue mer · gin menu · tapas · terrasse zeedijk</div>
+                  <div class="bar-card-sub" style="color:rgba(255,255,255,0.3);font-size:11px;margin-top:2px">Albert I-promenade 53, Oostende</div>
+                  <div class="chips" style="margin-top:8px">
+                    <a class="chip" href="https://maps.google.com/?q=Histoires+D+O+Albert+Promenade+53+Oostende" target="_blank">📍 Maps</a>
+                    <a class="chip green chip-waze" href="https://waze.com/ul?ll=51.2298,2.9155&navigate=yes" data-waze="waze://ul?ll=51.2298,2.9155&navigate=yes" target="_blank">🗺️ Y aller</a>
+                  </div>
+                </div>
+                <div class="bar-card">
+                  <div class="bar-card-name">🎵 Bar des Amis</div>
+                  <div class="bar-card-sub">Music · cocktails · dancefloor · good vibes</div>
+                  <div class="bar-card-sub" style="color:rgba(255,255,255,0.3);font-size:11px;margin-top:2px">Langestraat 14, Oostende</div>
+                  <div class="chips" style="margin-top:8px">
+                    <a class="chip" href="https://maps.google.com/?q=Bar+des+Amis+Langestraat+14+Oostende" target="_blank">📍 Maps</a>
+                    <a class="chip green chip-waze" href="https://waze.com/ul?ll=51.2302,2.9162&navigate=yes" data-waze="waze://ul?ll=51.2302,2.9162&navigate=yes" target="_blank">🗺️ Y aller</a>
+                  </div>
+                </div>
+                <div class="bar-card">
+                  <div class="bar-card-name">🎰 Casino d'Oostende</div>
+                  <div class="bar-card-sub">Pour finir la nuit avec style · bâtiment iconique du Kursaal</div>
+                  <div class="bar-card-sub" style="color:rgba(255,255,255,0.3);font-size:11px;margin-top:2px">Kursaal, Oostende</div>
+                  <div class="chips" style="margin-top:8px">
+                    <a class="chip" href="https://maps.google.com/?q=Casino+Kursaal+Oostende" target="_blank">📍 Maps</a>
+                    <a class="chip green chip-waze" href="https://waze.com/ul?ll=51.2285,2.9201&navigate=yes" data-waze="waze://ul?ll=51.2285,2.9201&navigate=yes" target="_blank">🗺️ Y aller</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
